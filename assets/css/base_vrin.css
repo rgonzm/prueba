@@ -1,0 +1,48 @@
+html{  height: 100%; }
+body{ background: #EBEBEB; height: 100%; }
+.border{ padding-left: 20px; padding-right: 20px; }
+.no_margin_left{ margin-left: 0px; }
+.margin_top1{ margin-top: 5px; }
+.margin_top2{ margin-top: 10px; }
+.margin_top3{ margin-top: 15px; }
+.margin_top4{ margin-top: 20px; }
+
+[class*="span"]{
+    min-height: 70px;
+    padding: 10px;
+
+}
+
+.justificado{ text-align:justify; }
+.c-rowspan{ padding:10px; }
+.col-wrap{ overflow: hidden; }
+.col-wrap .col{ margin-bottom: -99999px; padding-bottom: 99999px; }
+.hbar{ min-height: 42px; }
+.menu{ background: #474747; max-width: 960px;}
+.divcenter{ margin: 0 auto; }
+.span1 .span2 .span3 .span4 .span5 .span6 .span7 .span8 .span9 .span10 .span11 .span12 {}
+.white{
+    background: #FFF;
+    -webkit-box-shadow: 0px 0px 3px rgba(50, 50, 50, 0.25);
+    -moz-box-shadow:    0px 0px 3px rgba(50, 50, 50, 0.25);
+    box-shadow:         0px 0px 3px rgba(50, 50, 50, 0.25);
+}
+
+#wrap{
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -110px;
+}                        
+
+#push,
+footer { height: 110px; }
+div.div_mapa_sitio{ font-weight: normal; color:#FFF; }
+div.div_mapa_sitio a{ color:#FFF; font-weight:normal; }
+.noborder{ padding: 0px; }
+
+@media (max-width: 767px){
+    .border{
+        padding-left: 0px;
+    }
+}

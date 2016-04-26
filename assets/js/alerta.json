@@ -1,0 +1,19 @@
+{
+	"hoy" : {
+        "fecha": "01/06/2014",
+        "restriccion": "No Hay Restricción",
+        "condicion":"Regular"
+    },
+
+    "manana" : {
+        "fecha": "02/06/2014",
+        "restriccion": "MACRO",
+        "condicion":"Alerta"
+    },
+
+    "ayer" : {
+        "fecha": "31/05/2014",
+        "restriccion": "No Hay Restricción",
+        "condicion":"Bueno"
+    }
+}
